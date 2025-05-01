@@ -1,0 +1,6 @@
+Testy jsou delany na zaklade vstupu a vystupu,
+docela by se hodilo mit referencni binarku.
+Makefile obsahuje prikaz make test,
+ktery porovna vystupy programu za pouziti prepinace "-2" na souborech ./test/*.in
+se soubory ./test/*.out,
+za timto ucelem pouzije prikaz diff, takze narozdil od Vasich testu na poradi vystupu zalezi
